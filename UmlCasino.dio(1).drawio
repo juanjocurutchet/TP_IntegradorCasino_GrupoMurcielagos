@@ -1,0 +1,271 @@
+<mxfile host="app.diagrams.net" modified="2023-04-24T21:19:11.972Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.2.1" etag="axg2kAEioI_BwmK4zbTr" type="device">
+  <diagram id="7T_ATa4pIouZYKDGlvP5" name="Página-1">
+    <mxGraphModel dx="1434" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Casino&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre:string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tragamonedasFrutas: TragamonedasFrutas;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tragamonedasCartas: TragamonedasCartas;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mayorOmenor: MayorOMenor;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- dados: Dados;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNombre(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNombre(pNombre:void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ inscripcion(pJugador:Jugador):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fabrica(pIndice:number, pPantalla:Pantalla):void;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="1" vertex="1">
+          <mxGeometry x="40" y="151" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="400" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Jugador&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre:string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- dinero: number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- apuesta: number:&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNombre(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNombre(pNombre:string):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDinero(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDinero(pDinero:number): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getApuesta():number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setApuesta(pApuesta:number):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ agregarSaldo():void;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ apostar(pPantalla:Pantalla): void;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ jugar(pPantalla, pCasino):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="40" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;abstract &amp;gt;&amp;gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tragamonedas&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre:string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- jugador:Jugador;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# getNombreTragamonedas(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNombreTragamonedas(pNombre:string): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- entregarPremio():string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ juego(pPantalla:Pantalla): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;abstract mostrarEnPantalla():string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;abstract setTirada():void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;abstract cargarGuia(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;abstract reglamentoJuego(): string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;abstract calcularPremio(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="320" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TragamonedasFrutas&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- guia: Frutas[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tirada: number[][];&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reglamentoJuego(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cargarGuia(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTirada():void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mostrarEnPantalla(): string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarTresIguales(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarLinea(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarDiagonal(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calcularPremio(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="640" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TragamonedasCartas&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- guia: Mazo[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tirada: number [] [];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mazo: Mazo ;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reglamentoJuego(): string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cargarGuia(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTirada():void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mostrarEnPantalla(): string [];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarCuatroIguales(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarLinea(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calcularPremio(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="640" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Frutas&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre: string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNombre():string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNombre(pNombre: string): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="607" y="920" width="216" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Mazo&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mazo: Cartas [];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- descarte: number [];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ cargarMazo(): void;&lt;br&gt;&amp;nbsp;+ cargarPalo(indice:number): Cartas [];&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMazo: Cartas [];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setMazo(pMazo: Cartas []):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getNombreCarta(indice: number): string;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getDescarte(): number;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDescarte(pDescarte:number[]): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ darCarta(): Cartas;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1050" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MayorOmenor&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- titulo: string;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- carta1: Cartas;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- carta2: Cartas;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- jugador: Jugador;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mazo:Mazo;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNombre(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCarta1(): Cartas;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCarta2(): Cartas;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCarta1(pCarta1: Cartas): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCarta2(pCarta2: Cartas): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- reglamentoJuego(): string [];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cantidadCartasMazo(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- probabilidadMayor(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- probabilidadMenor(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- probabilidadComodin(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificaMayor(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificaMenor(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificaComodin(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- calcularPremio(pApuesta: number): number;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- probabilidad(): string [];&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- entregarPremio(pApuesta:number): string [];&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ juego(pPantalla:Pantalla): void;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="605" width="265" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Dados&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- dados: number[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre: string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- jugador: Jugador;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDados(): number[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNombreDados(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNombreDados(nombre:string);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDados(pDados: number[]): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calcularPremio(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- reglamentoJuego(): string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ jugar(pPantalla:Pantalla): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calcularProbabilidadCuatroIguales(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calcularProbabilidadEscalera(): number;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calcularProbabilidadCincoIguales(): number;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- calcularProbabilidadTresDosIguales(): number;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- probabilidad(): string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- tirarDados(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarGenerala(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarPoker(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarEscalera(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- verificarFull(): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="640" width="290" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cartas&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cartas: string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCartas(): string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCartas(pCartas: string):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deQuePaloEs(pPalo: string): boolean;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ mostrarCartaPantalla(pCarta:boolean): string;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1090" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="11" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="830" as="sourcePoint" />
+            <mxPoint x="715" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="12" target="10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1005" y="1010" as="sourcePoint" />
+            <mxPoint x="1150" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="1010" />
+              <mxPoint x="1005" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="12" target="13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1328" y="1010" as="sourcePoint" />
+            <mxPoint x="1150" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="1010" />
+              <mxPoint x="1328" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="15" target="12" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1290" y="960" as="sourcePoint" />
+            <mxPoint x="1450" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="7" target="14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="200" as="sourcePoint" />
+            <mxPoint x="890" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="860" y="270" as="sourcePoint" />
+            <mxPoint x="890" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="7" target="13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1328" y="290" as="sourcePoint" />
+            <mxPoint x="1020" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1328" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pantalla&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pantalla:string;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPantalla(): string[];&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPantalla(pPantalla:string[]): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mostrarPantallaInicio(pTitulo:string):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bienvenido(pTitulo: string): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mostrarMensaje(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mostrarProbabilidades(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mostrarReglas(pJuego:string):void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ menuPantalla(): number;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mensajesError(indice:number): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ comprobacionDatoIngresado(pMax:number, pMin:number, situacion: number, pJugador:Jugador): boolean;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ borrarConsola(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pausarConsola(): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ juegoPantalla(): void;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="330" width="590" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0;exitY=0.42;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="30" target="8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1310" y="420" as="sourcePoint" />
+            <mxPoint x="1000" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
+          <mxGeometry x="-0.4143" y="140" width="160" relative="1" as="geometry">
+            <mxPoint x="1640" y="300" as="sourcePoint" />
+            <mxPoint x="1640" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="340" y="290" />
+              <mxPoint x="1640" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="760" y="60" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="760" y="120" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="720" y="360" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="352" width="590" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="721" y="400" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="382" width="590" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="260" y="721" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="260" y="660" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="610" y="660" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="900" y="660" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="620" width="265" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="900" y="721" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="610" y="700" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="692" width="265" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="607" y="940" width="213" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="607" y="976" width="213" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1001" y="1120" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1002" y="1070" width="239" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1112" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1140" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="64" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;UML&amp;nbsp; Trabajo Practico Final Casino&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-40" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt; IFrutas&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getNombre():string;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNombre(pNombre: string): void;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillStyle=solid;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="607" y="1100" width="223" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fillStyle=solid;" parent="1" vertex="1">
+          <mxGeometry x="607" y="1136" width="223" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="68" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontSize=18;" parent="1" target="65" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="719" y="1040" as="sourcePoint" />
+            <mxPoint x="820" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="14" target="2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="580" />
+              <mxPoint x="240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="70" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9" target="2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="580" />
+              <mxPoint x="240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="10" target="2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="953" y="580" />
+              <mxPoint x="240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="73" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="13" target="2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1261" y="580" />
+              <mxPoint x="240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="10" target="8" edge="1">
+          <mxGeometry x="0.1946" width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1058" y="610" />
+              <mxPoint x="860" y="610" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9" target="8" edge="1">
+          <mxGeometry x="-0.12" width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="610" />
+              <mxPoint x="860" y="610" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="76" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="7" edge="1">
+          <mxGeometry x="1" y="-615" width="160" relative="1" as="geometry">
+            <mxPoint x="650" y="200" as="sourcePoint" />
+            <mxPoint x="810" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="290" />
+              <mxPoint x="640" y="290" />
+              <mxPoint x="640" y="155" />
+            </Array>
+            <mxPoint x="600" y="-480" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
